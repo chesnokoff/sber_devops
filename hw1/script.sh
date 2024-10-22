@@ -1,25 +1,22 @@
 #!/bin/bash
 
-# $1 - file to write
-function write_data_in_file {
-  disk="$(df -h | awk 'NR==2 {print $3}')" # -i option is now the default to conform to Version3 of the Single UNIX Specification (“SUSv3”)
-  inodes="$(df | awk 'NR==2 {print $7}')"
-  echo -e "Used, Ifree \n$disk, $inodes" > "$1"
+function process_cur_day {
+    day_of_creation="$(date '+%Y-%m-%d')"
+    time_of_creation="$(date '+%H:%M:%S')"
+    file="./data_${day_of_creation}_${time_of_creation}.txt"
+    echo -e "Used, Ifree, Timestamp" > "$file"
+    while [[ "$day_of_creation" == "$(date '+%Y-%m-%d')" ]]; do
+      timestamp_with_date="$(date '+%H:%M:%S')"
+      disk="$(df -h | awk 'NR==2 {print $3}')" # -i option is now the default to conform to Version3 of the Single UNIX Specification (“SUSv3”)
+      inodes="$(df | awk 'NR==2 {print $7}')"
+      echo -e "$disk, $inodes, $timestamp_with_date" >> "$file"
+      sleep 15
+    done
 }
 
 function process  {
-  prev_timestamp=
-  prev_day=
     while true; do
-      next_timestamp="$(date '+%Y-%m-%d_%H:%M:%S')"
-      next_day="$(date '+%Y-%m-%d')"
-      if [[ -n "$prev_timestamp" ]] && [[  "$prev_day" == "$next_day"  ]]; then
-        rm ./data_"$prev_timestamp".txt > /dev/null
-      fi
-      write_data_in_file ./data_"$next_timestamp".txt
-      prev_timestamp="$next_timestamp"
-      prev_day="$next_day"
-      sleep 100
+      process_cur_day
     done
 }
 
