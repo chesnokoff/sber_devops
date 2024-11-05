@@ -1,0 +1,31 @@
+---
+
+- name: Install Java package (MACOS)
+  homebrew:
+    name: "{{ java_homebrew_package }}"
+    state: present
+  when: ansible_os_family == 'Darwin'
+
+- name: Install Java package (Debian/Ubuntu)
+  apt:
+    name: "{{ java_apt_package }}"
+    state: present
+    update_cache: yes
+  when: ansible_os_family == 'Debian'
+
+- name: Install unzip
+  package:
+    name: unzip
+    state: present
+
+
+- name: Download ZIP file
+  get_url:
+    url: "https://dlcdn.apache.org/ignite/2.16.0/apache-ignite-2.16.0-bin.zip"
+    dest: "/"
+
+- name: Unzip downloaded file
+  unarchive:
+    src: "/apache-ignite-2.16.0-bin.zip"
+    dest: "/"
+    remote_src: yes

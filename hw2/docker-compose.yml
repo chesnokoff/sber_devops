@@ -1,0 +1,22 @@
+services:
+  ansible-host:
+    build:
+      context: ./
+      dockerfile: dockerfile_ansible
+    command: ansible-playbook -i inventories/servers.ini main.yaml
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - DOCKER_HOST=unix:///var/run/docker.sock
+    depends_on:
+      - remote-host
+
+  remote-host:
+    build:
+      context: ./
+      dockerfile: dockerfile_deploy
+    command: tail -f /dev/null
+    ports:
+      - "10800:10800"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock

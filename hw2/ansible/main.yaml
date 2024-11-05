@@ -1,0 +1,8 @@
+---
+
+- name: Init
+  hosts: docker_hosts
+  connection: local
+  roles:
+    - init
+    - deploy
