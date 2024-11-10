@@ -1,0 +1,4 @@
+---
+java_apt_package: openjdk-11-jdk
+java_yum_package: java-1.8.0-openjdk
+java_homebrew_package: openjdk@11
