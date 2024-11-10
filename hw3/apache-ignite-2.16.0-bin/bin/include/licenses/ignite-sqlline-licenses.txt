@@ -1,0 +1,13 @@
+// ------------------------------------------------------------------
+// List of ignite-sqlline module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For sqlline (https://github.com/julianhyde/sqlline) sqlline:sqlline:jar:1.9.0
+==============================================================================
+This product bundles sqlline which is available under a:
+Modified BSD License. For details, see https://opensource.org/licenses/BSD-3-Clause.
+
+
+

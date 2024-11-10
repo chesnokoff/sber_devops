@@ -1,0 +1,61 @@
+// ------------------------------------------------------------------
+// List of ignite-rest-http module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For Java Servlet API (http://servlet-spec.java.net) javax.servlet:javax.servlet-api:jar:3.1.0
+==============================================================================
+This product bundles Java Servlet API which is available under a:
+CDDL + GPLv2 with classpath exception. For details, see https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html.
+
+==============================================================================
+For SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.33
+==============================================================================
+This product bundles SLF4J API Module which is available under a:
+MIT License. For details, see http://www.opensource.org/licenses/mit-license.php.
+
+==============================================================================
+For Jetty :: Continuation (https://eclipse.org/jetty/jetty-continuation) org.eclipse.jetty:jetty-continuation:jar:9.4.53.v20231009
+==============================================================================
+This product bundles Jetty :: Continuation which is available under a:
+Apache Software License - Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.
+Eclipse Public License - Version 1.0. For details, see https://www.eclipse.org/org/documents/epl-v10.php.
+
+==============================================================================
+For Jetty :: Http Utility (https://eclipse.org/jetty/jetty-http) org.eclipse.jetty:jetty-http:jar:9.4.53.v20231009
+==============================================================================
+This product bundles Jetty :: Http Utility which is available under a:
+Apache Software License - Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.
+Eclipse Public License - Version 1.0. For details, see https://www.eclipse.org/org/documents/epl-v10.php.
+
+==============================================================================
+For Jetty :: IO Utility (https://eclipse.org/jetty/jetty-io) org.eclipse.jetty:jetty-io:jar:9.4.53.v20231009
+==============================================================================
+This product bundles Jetty :: IO Utility which is available under a:
+Apache Software License - Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.
+Eclipse Public License - Version 1.0. For details, see https://www.eclipse.org/org/documents/epl-v10.php.
+
+==============================================================================
+For Jetty :: Server Core (https://eclipse.org/jetty/jetty-server) org.eclipse.jetty:jetty-server:jar:9.4.53.v20231009
+==============================================================================
+This product bundles Jetty :: Server Core which is available under a:
+Apache Software License - Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.
+Eclipse Public License - Version 1.0. For details, see https://www.eclipse.org/org/documents/epl-v10.php.
+
+==============================================================================
+For Jetty :: Utilities (https://eclipse.org/jetty/jetty-util) org.eclipse.jetty:jetty-util:jar:9.4.53.v20231009
+==============================================================================
+This product bundles Jetty :: Utilities which is available under a:
+Apache Software License - Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.
+Eclipse Public License - Version 1.0. For details, see https://www.eclipse.org/org/documents/epl-v10.php.
+
+==============================================================================
+For Jetty :: XML utilities (https://eclipse.org/jetty/jetty-xml) org.eclipse.jetty:jetty-xml:jar:9.4.53.v20231009
+==============================================================================
+This product bundles Jetty :: XML utilities which is available under a:
+Apache Software License - Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.
+Eclipse Public License - Version 1.0. For details, see https://www.eclipse.org/org/documents/epl-v10.php.
+
+
+

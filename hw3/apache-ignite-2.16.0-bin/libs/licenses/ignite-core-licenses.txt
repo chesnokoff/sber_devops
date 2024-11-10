@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// List of ignite-core module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For JSR107 API and SPI (https://github.com/jsr107/jsr107spec) javax.cache:cache-api:jar:1.0.0
+==============================================================================
+This product bundles JSR107 API and SPI which is available under a:
+JSR-000107 JCACHE 2.9 Public Review - Updated Specification License. For details, see https://raw.github.com/jsr107/jsr107spec/master/LICENSE.txt.
+
+==============================================================================
+For JetBrains Java Annotations (https://github.com/JetBrains/java-annotations) org.jetbrains:annotations:jar:16.0.3
+==============================================================================
+This product bundles JetBrains Java Annotations which is available under a:
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/license/LICENSE-2.0.txt.
+
+
+

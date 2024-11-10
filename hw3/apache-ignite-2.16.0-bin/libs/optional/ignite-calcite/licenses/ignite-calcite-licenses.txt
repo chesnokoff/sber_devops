@@ -1,0 +1,53 @@
+// ------------------------------------------------------------------
+// List of ignite-calcite module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For Checker Qual (https://checkerframework.org) org.checkerframework:checker-qual:jar:3.10.0
+==============================================================================
+This product bundles Checker Qual which is available under a:
+The MIT License. For details, see http://opensource.org/licenses/MIT.
+
+==============================================================================
+For commons-compiler (http://janino-compiler.github.io/commons-compiler/) org.codehaus.janino:commons-compiler:jar:3.1.8
+==============================================================================
+This product bundles commons-compiler which is available under a:
+BSD-3-Clause. For details, see https://spdx.org/licenses/BSD-3-Clause.html.
+
+==============================================================================
+For janino (http://janino-compiler.github.io/janino/) org.codehaus.janino:janino:jar:3.1.8
+==============================================================================
+This product bundles janino which is available under a:
+BSD-3-Clause. For details, see https://spdx.org/licenses/BSD-3-Clause.html.
+
+==============================================================================
+For org.locationtech.jts:jts-core (https://www.locationtech.org/projects/technology.jts/jts-modules/jts-core) org.locationtech.jts:jts-core:bundle:1.19.0
+==============================================================================
+This product bundles org.locationtech.jts:jts-core which is available under a:
+Eclipse Public License, Version 2.0. For details, see https://github.com/locationtech/jts/blob/master/LICENSE_EPLv2.txt.
+Eclipse Distribution License - v 1.0. For details, see https://github.com/locationtech/jts/blob/master/LICENSE_EDLv1.txt.
+
+==============================================================================
+For Reflections (http://github.com/ronmamo/reflections) org.reflections:reflections:jar:0.10.2
+==============================================================================
+This product bundles Reflections which is available under a:
+WTFPL. For details, see http://www.wtfpl.net/.
+The Apache Software License, Version 2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+==============================================================================
+For SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.33
+==============================================================================
+This product bundles SLF4J API Module which is available under a:
+MIT License. For details, see http://www.opensource.org/licenses/mit-license.php.
+
+==============================================================================
+For Javassist (http://www.javassist.org/) org.javassist:javassist:bundle:3.28.0-GA
+==============================================================================
+This product bundles Javassist which is available under a:
+MPL 1.1. For details, see http://www.mozilla.org/MPL/MPL-1.1.html.
+LGPL 2.1. For details, see http://www.gnu.org/licenses/lgpl-2.1.html.
+Apache License 2.0. For details, see http://www.apache.org/licenses/.
+
+
+

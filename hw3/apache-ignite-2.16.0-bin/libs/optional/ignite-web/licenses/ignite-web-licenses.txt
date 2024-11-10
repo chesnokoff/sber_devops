@@ -1,0 +1,13 @@
+// ------------------------------------------------------------------
+// List of ignite-web module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For tomcat-servlet-api (https://tomcat.apache.org/) org.apache.tomcat:tomcat-servlet-api:jar:9.0.63
+==============================================================================
+This product bundles tomcat-servlet-api which is available under a:
+Apache License, Version 2.0 and Common Development And Distribution License (CDDL) Version 1.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt and http://www.opensource.org/licenses/cddl1.txt.
+
+
+

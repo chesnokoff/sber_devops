@@ -1,0 +1,13 @@
+// ------------------------------------------------------------------
+// List of ignite-urideploy module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For JTidy (http://jtidy.sourceforge.net) net.sf.jtidy:jtidy:jar:r938
+==============================================================================
+This product bundles JTidy which is available under a:
+Java HTML Tidy License. For details, see http://jtidy.svn.sourceforge.net/viewvc/jtidy/trunk/jtidy/LICENSE.txt?revision=95.
+
+
+

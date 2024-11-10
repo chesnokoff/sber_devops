@@ -1,0 +1,14 @@
+// ------------------------------------------------------------------
+// List of ignite-direct-io module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For Java Native Access (https://github.com/java-native-access/jna) net.java.dev.jna:jna:jar:4.5.2
+==============================================================================
+This product bundles Java Native Access which is available under a:
+LGPL, version 2.1. For details, see http://www.gnu.org/licenses/licenses.html.
+Apache License v2.0. For details, see http://www.apache.org/licenses/LICENSE-2.0.txt.
+
+
+

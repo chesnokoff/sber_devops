@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// List of ignite-compress module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For jnr-posix (http://nexus.sonatype.org/oss-repository-hosting.html/jnr-posix) com.github.jnr:jnr-posix:jar:3.1.15
+==============================================================================
+This product bundles jnr-posix which is available under a:
+Eclipse Public License - v 2.0. For details, see https://www.eclipse.org/legal/epl-2.0/.
+GNU General Public License Version 2. For details, see http://www.gnu.org/copyleft/gpl.html.
+GNU Lesser General Public License Version 2.1. For details, see http://www.gnu.org/licenses/lgpl.html.
+
+==============================================================================
+For zstd-jni (https://github.com/luben/zstd-jni) com.github.luben:zstd-jni:jar:1.5.5-5
+==============================================================================
+This product bundles zstd-jni which is available under a:
+BSD 2-Clause License. For details, see https://opensource.org/licenses/BSD-2-Clause.
+
+
+

@@ -1,0 +1,229 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Apache.Ignite.Executable/1.0.0": {
+        "dependencies": {
+          "Apache.Ignite": "1.0.0",
+          "Microsoft.CodeAnalysis.FxCopAnalyzers": "2.9.12",
+          "Microsoft.NETFramework.ReferenceAssemblies": "1.0.2"
+        },
+        "runtime": {
+          "Apache.Ignite.Executable.dll": {}
+        }
+      },
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.12": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.VersionCheckAnalyzer": "2.9.12",
+          "Microsoft.CodeQuality.Analyzers": "2.9.12",
+          "Microsoft.NetCore.Analyzers": "2.9.12",
+          "Microsoft.NetFramework.Analyzers": "2.9.12"
+        }
+      },
+      "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.12": {},
+      "Microsoft.CodeQuality.Analyzers/2.9.12": {},
+      "Microsoft.NetCore.Analyzers/2.9.12": {},
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.NetFramework.Analyzers/2.9.12": {},
+      "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net461": "1.0.2"
+        }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.2": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {},
+      "System.Reflection.Emit.Lightweight/4.7.0": {},
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "Apache.Ignite/1.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Configuration.ConfigurationManager": "4.5.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "Apache.Ignite.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Apache.Ignite.Executable/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.FxCopAnalyzers/2.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5YVwM5Kf4xCgIt+CviIjGZUfYmJrJHaeCnkacumxFvqRpqarM0/7dlxFHRFSmhE2ockFGjS0GYLDMUmH1Wn30Q==",
+      "path": "microsoft.codeanalysis.fxcopanalyzers/2.9.12",
+      "hashPath": "microsoft.codeanalysis.fxcopanalyzers.2.9.12.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.VersionCheckAnalyzer/2.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nk7KvmujM5lcS0xDAxNOQ5vdV/zkfVQJOkCcOzDSTFN+/voN4N+lc9P43lM02MMm6dNp7EhaIvpq0X22L+MBcQ==",
+      "path": "microsoft.codeanalysis.versioncheckanalyzer/2.9.12",
+      "hashPath": "microsoft.codeanalysis.versioncheckanalyzer.2.9.12.nupkg.sha512"
+    },
+    "Microsoft.CodeQuality.Analyzers/2.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqWOxpX371dKR0xMYGi34I0Q/UEtfNAuWU9W53Mxq/ng1JhsM9gEyIFqfu5IzGC8/RRhJ97xx6lpTb4NsrwHwg==",
+      "path": "microsoft.codequality.analyzers/2.9.12",
+      "hashPath": "microsoft.codequality.analyzers.2.9.12.nupkg.sha512"
+    },
+    "Microsoft.NetCore.Analyzers/2.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ij+bDu3enDonmc8SSKQRB6vIDgSxSD60YFnt2ooqgg15G4GIcW6qzjEutFW0ycl1PCuuDHQH2ZOJU4gjGq0h4A==",
+      "path": "microsoft.netcore.analyzers/2.9.12",
+      "hashPath": "microsoft.netcore.analyzers.2.9.12.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.NetFramework.Analyzers/2.9.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cz5/QJoSMm8nX2af261MbQt5H7SVWyJPwV8ieVtqRH794D5G5unR3oOiiqdbqiDQYwOlD8IvXXoVB3TZQSp01g==",
+      "path": "microsoft.netframework.analyzers/2.9.12",
+      "hashPath": "microsoft.netframework.analyzers.2.9.12.nupkg.sha512"
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5/cSEVld+px/CuRrbohO/djfg6++eR6zGpy88MgqloXvkj//WXWpFZyu/OpkXPN0u5m+dN/EVwLNYFUxD4h2+A==",
+      "path": "microsoft.netframework.referenceassemblies/1.0.2",
+      "hashPath": "microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.NETFramework.ReferenceAssemblies.net461/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8shzGaD5pZi4npuJYCM3de6pl0zlefcbyTIvXIiCdsTqauZ7lAhdaJVtJSqlhYid9VosFAOygBykoJ1SEOlGWA==",
+      "path": "microsoft.netframework.referenceassemblies.net461/1.0.2",
+      "hashPath": "microsoft.netframework.referenceassemblies.net461.1.0.2.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "Apache.Ignite/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

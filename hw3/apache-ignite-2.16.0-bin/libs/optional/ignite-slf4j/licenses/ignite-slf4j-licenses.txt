@@ -1,0 +1,13 @@
+// ------------------------------------------------------------------
+// List of ignite-slf4j module's dependencies provided as a part of this distribution
+// which licenses differ from Apache Software License.
+// ------------------------------------------------------------------
+
+==============================================================================
+For SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.33
+==============================================================================
+This product bundles SLF4J API Module which is available under a:
+MIT License. For details, see http://www.opensource.org/licenses/mit-license.php.
+
+
+
