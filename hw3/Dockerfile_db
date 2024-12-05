@@ -1,0 +1,7 @@
+FROM openjdk:17-jdk-slim
+
+WORKDIR /
+COPY apache-ignite-2.16.0-bin ignite-server
+WORKDIR /ignite-server/bin
+
+CMD [ "./ignite.sh", "../examples/config/example-ignite.xml"]

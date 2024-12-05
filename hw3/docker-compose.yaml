@@ -1,0 +1,25 @@
+#services:
+#  ignite-server:
+#    build:
+#      context: ./
+#      dockerfile: Dockerfile_db
+#    ports:
+#      - "47500-47509:47500-47509"
+#
+#  ignite-client:
+#    build:
+#      context: ./
+#      dockerfile: Dockerfile_app
+#    depends_on:
+#      - ignite-server
+
+services:
+  ignite-server:
+    image: chesnokovam/hw3-ignite-server
+    ports:
+      - "47500-47509:47500-47509"
+
+  ignite-client:
+    image: chesnokovam/hw3-ignite-client
+    depends_on:
+      - ignite-server
